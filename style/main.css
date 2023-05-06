@@ -50,3 +50,11 @@ header {
 .nav_link:hover { 
   color: hotpink;
 }
+
+.home{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("./air.jpg");
+  background-size: cover;
+}
