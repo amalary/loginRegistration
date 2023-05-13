@@ -84,5 +84,23 @@ header {
   transform: translate(-50%, -50%);
   z-index: 101;
   background: white;
-  border-radius: 6px;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.form_close { 
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: black;
+  font-size: 20px;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.form_container h2 { 
+  font-size: 22px;
+  color: black;
+  text-align: center;
+
 }
