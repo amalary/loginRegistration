@@ -122,12 +122,35 @@ header {
   width:100%;
   border: none;
   outline:none;
+  color: #333;
+  transition:all 0.2 ease-in;
+  padding: 0px 30px;
   border-bottom: 1.5px solid #aaaa;
+}
+.input_box input:focus{
+  border-color:rgb(0, 140, 255);
 }
 
 .input_box i {
-
   position:absolute;
   top: 50%;
-  transform: translate(-50)
+  transform: translate(-5%);
+  font-size: 20px;
+}
+
+.input_box i.email, .input_box i.password{
+  left:0px;
+  margin-bottom: 100px;
+  color: #707070;
+};
+
+.input_box input:focus ~ i.email,
+.input_box input:focus ~ i.pw_hide{
+  border-color:rgba(0, 110, 255, 0.849);
+}
+
+
+.input_box i.pw_hide{
+  right: 0px;
+  font-size: 18px;
 }
