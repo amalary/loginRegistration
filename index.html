@@ -11,7 +11,7 @@
 <body>
 
   <header class="header">
-
+<!-- Header -->
     <nav class = "nav">
       <a href="#" class="nav_logo">CodeCloud</a>
   
@@ -23,7 +23,7 @@
           <a href="#" class="nav_link">Contact</a>
         </li>
       </ul>
-      <button class="button">Login</button>
+      <button class="button" id = "form-open">Login</button>
     </nav>
 
   </header>
@@ -58,12 +58,45 @@
           <button class="button">Login Now</button>
 
           <div class="login_signup">
-            Don't have an account ? <a href="#" id = "signup">Signup</a>
+            Don't have an account ? <a href="#" id = "login">Signup</a>
+          </div>
+        </form>
+      </div>
+
+
+      <!-- Signup Form -->
+
+      <div class="signup_form">
+        <form action="#">
+          <h2>Signup</h2>
+  
+          <div class="input_box">
+            <i class="uil uil-envelope-alt email"></i>
+            <input type="email" placeholder="Enter your email" required>
+          </div>
+  
+          <div class="input_box">
+            <i class="uil uil-lock password"></i>
+            <input type="password" placeholder="Create your password" required>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+
+          <div class="input_box">
+            <i class="uil uil-lock password"></i>
+            <input type="password" placeholder="Confirm your password" required>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+          <button class="button">Signup Now</button>
+
+          <div class="login_signup">
+          Already have an account ? <a href="#" id = "signup">Login</a>
           </div>
         </form>
       </div>
     </div>
   </section>
+
+  <script src="app.js"></script>
   
   
 </body>
