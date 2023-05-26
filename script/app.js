@@ -2,9 +2,16 @@ const formOpenBtn = document.querySelector("#form-open");
 const home = document.querySelector(".home");
 const formContainer = document.querySelector('.form_container');
 const formCloseBtn = document.querySelector(".form_close");
-const signupBtn = document.querySelector("#signup");
-const loginBtn = document.querySelector("#login");
 const pwShowHide = document.querySelectorAll(".pw_hide");
+const signupBtn = document.querySelector("#signup");
+const loginForm = document.querySelector(".login_form");
+const signupForm = document.querySelector(".signup_form");
+
+signupBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  loginForm.style.display = "none";
+  signupForm.style.display = "block";
+});
 
 formOpenBtn.addEventListener("click", () => home.classList.add("show"));
 formCloseBtn.addEventListener('click', () => home.classList.remove("show"));
