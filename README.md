@@ -1,6 +1,6 @@
 # Login Form Project
 
-![](images/loginForm.png)
+[](images/loginForm.png)
 
 This project consists of a login and registration form built using HTML, CSS, and JavaScript. It provides a simple interface for users to enter their credentials and either log in or sign up for an account.
 
